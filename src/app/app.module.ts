@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ShowhideComponent } from './showhide/showhide.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShowhideComponent
   ],
   imports: [
     BrowserModule,
